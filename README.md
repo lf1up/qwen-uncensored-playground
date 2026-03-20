@@ -8,7 +8,18 @@ A Jupyter notebook that runs [Qwen3.5-35B-A3B-Uncensored](https://huggingface.co
 - **Python**: 3.12
 - **Platform**: Linux x86_64
 
-## Quick start
+## Quick start with Modal (recommended)
+
+The fastest way to get running — no local GPU needed:
+
+1. Create a free account at [modal.com](https://modal.com)
+2. Go to [Notebooks](https://modal.com/notebooks) and upload `qwen_uncensored.ipynb`
+3. In the sidebar, set the kernel GPU to **A100 80GB** (or any GPU with 32+ GB VRAM)
+4. Run all cells — the model downloads, loads onto the GPU, and Gradio gives you a public chat URL
+
+The whole setup takes about 5 minutes. You only pay for the seconds the kernel is running.
+
+## Quick start (local)
 
 Open `qwen_uncensored.ipynb` and run all cells in order:
 
